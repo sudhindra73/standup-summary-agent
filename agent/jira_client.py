@@ -110,6 +110,8 @@ def get_user_issues(board_id, username):
         if status.lower() in {"done", "closed", "resolved","completed"}:
             mr_url = get_merge_request_url(key)
 
+        print ("Test")
+
         issues.append({
             "key": key,
             "summary": summary,
