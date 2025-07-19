@@ -1,0 +1,13 @@
+use_llm: true
+team:
+  name: Alpha Engineering
+  notification_time: "09:00"
+  channel: "#team_alpha"
+
+members:
+  - name: Sudhindra Desai
+    email: sudhindra.desai@gmail.com
+    account_id: "712020:f910f43e-0ea7-4bf6-ac30-306f9d1a0a99"
+    jira_board_id: 1
+    jira_project_id: 10000
+
